@@ -8,14 +8,14 @@ To initialize (where `${ENV}` is listed in the table below):
 nix flake init --template github:the-nix-way/dev-templates#${ENV}
 ```
 
-Here's an example (for the [`rust`](./rust) template):
+Here's an example (for the [`go`](./go) template):
 
 ```shell
 # Initialize in the current project
-nix flake init --template github:the-nix-way/dev-templates#rust
+nix flake init --template github:grapeofwrath/dev-templates#let-it-go
 
 # Create a new project
-nix flake new --template github:the-nix-way/dev-templates#rust ${NEW_PROJECT_DIRECTORY}
+nix flake new --template github:grapeofwrath/dev-templates#let-it-go ${NEW_PROJECT_DIRECTORY}
 ```
 
 ## How to use the templates
@@ -52,6 +52,7 @@ Once your preferred template has been initialized, you can use the provided shel
 | [Protobuf]               | [`protobuf`](./protobuf/)     |
 | [Pulumi]                 | [`pulumi`](./pulumi/)         |
 | [Purescript]             | [`purescript`](./purescript/) |
+| [Python]                 | [`python`](./python/)         |
 | [Ruby]                   | [`ruby`](./ruby/)             |
 | [Rust]                   | [`rust`](./rust/)             |
 | [Scala]                  | [`scala`](./scala/)           |
