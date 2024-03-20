@@ -96,7 +96,7 @@
           description = "Gleam development environment";
         };
 
-        go = {
+        let-it-go = {
           path = ./go;
           description = "Go (Golang) development environment";
         };
